@@ -29,8 +29,8 @@ Set up the back end and front end in the /server and /client folders accordingly
     - Create a folder /Notes/client for the frontend.
 3. Copy or clone the repo in the backend folder.
 4. Test if you have NodeJS installed.
-  - In Command Prompt, type 'node -v' and execute. If an error appears, go to [this site](https://nodejs.org/) and install latest stable version from there.
-5. Check the .env file, and make sure that it has all the settings from the .sample.env
+    - In Command Prompt, type 'node -v' and execute. If an error appears, go to [this site](https://nodejs.org/) and install latest stable version from there.
+6. Check the .env file, and make sure that it has all the settings from the .sample.env
 4. Open the backend folder with Visual Studio code, and open a terminal and execute command 'npm install'.
 5. Run the command 'npm prisma migrate dev' to push changes from Prisma to the database from step 1.
 6. Open the NPM Scripts menu on the bottom left part and run the script 'dev', or type 'npm run dev'.
