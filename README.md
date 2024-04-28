@@ -19,8 +19,8 @@ Set up the back end and fron end in the /server and /client folders accordingly.
 ## Project set-up
 
 1. Set up the PostgreSQL database first.
-     - Install [PostgreSQL](https://www.postgresql.org/) and a control utility [pgAdmin 4](pgadmin.org).
-     - Set up a database on the server, name it notes for example.
+     - Install [PostgreSQL](https://www.postgresql.org/) and a control utility like [pgAdmin 4](pgadmin.org).
+     - Set up a database on the server, name it 'notes' for example.
      - Add a password to the suer that controls the database for extra security.
      - Set up DATABASE_URL in the .env file, check the .sample.env for an example. 
 2. Set up a folder structure for the project, if you haven't already:
