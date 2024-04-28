@@ -1,6 +1,6 @@
 # Simple Notes app back end
 
-This repository contains the back end for a simple Notes application.
+This repository contains the back end for a simple Notes application. The front end is [here](https://github.com/NikolayKolov/devteams-notes-client).
 Before using this repo, set up the PostgreSQL database first.
 
 The back end is written in TypeScript and uses NodeJS, Express, JWT token authentication middleware, a PostgreSQL database linked with a [Prisma ORM](https://www.prisma.io/), [Zod](https://zod.dev/) for form data validation.
